@@ -1,0 +1,14 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure full height and background for the entire page */
+html, body {
+  @apply h-full bg-indigo-50; /* Replace bg-gray-100 with your desired background color */
+}
+
+#root, #__next {
+  @apply h-full; /* Ensures Next.js root container fills the page */
+}
+
